@@ -12,7 +12,7 @@ def consultar():
     lim = n_limites.get()
     
     # Realizamos la consulta a la base de datos
-    results = base_de_datos(dep,lim)
+    results = base_de_datos(dep,lim)#2
     
     # Si no hay resultados, mostramos un mensaje de error
     if results.empty == True:
